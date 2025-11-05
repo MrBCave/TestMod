@@ -1,5 +1,6 @@
 package net.cavebr.bradleysschoolmod;
 
+import net.cavebr.bradleysschoolmod.block.ModBlocks;
 import net.cavebr.bradleysschoolmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -48,6 +49,7 @@ public class BradleysSchoolMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -59,11 +61,14 @@ public class BradleysSchoolMod {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the mod's content to relevant creative tabs.
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_GREENSTONE);
             event.accept(ModItems.GREENSTONE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.POLISHED_GREENSTONE_BLOCK);
         }
     }
 

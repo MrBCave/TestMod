@@ -1,6 +1,8 @@
 {
 
   "item.bradleysschoolmod.greenstone": "Greenstone",
-  "item.bradleysschoolmod.raw_greenstone": "Raw Greenstone"
+  "item.bradleysschoolmod.raw_greenstone": "Raw Greenstone",
+
+  "block.bradleysschoolmod.polished_greenstone_block": "Polished Greenstone Block"
 
 }
