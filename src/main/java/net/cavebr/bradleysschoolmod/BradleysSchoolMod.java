@@ -1,6 +1,7 @@
 package net.cavebr.bradleysschoolmod;
 
 import net.cavebr.bradleysschoolmod.block.ModBlocks;
+import net.cavebr.bradleysschoolmod.item.ModCreativeModeTabs;
 import net.cavebr.bradleysschoolmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -47,6 +48,8 @@ public class BradleysSchoolMod {
 
         // Register ourselves for server and other game events we are interested in.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
