@@ -67,7 +67,11 @@ public class BradleysSchoolMod {
             event.accept(ModItems.RAW_GREENSTONE);
             event.accept(ModItems.GREENSTONE);
         }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.RAW_GREENSTONE_BLOCK);
+        }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RAW_GREENSTONE_BLOCK);
             event.accept(ModBlocks.POLISHED_GREENSTONE_BLOCK);
         }
     }

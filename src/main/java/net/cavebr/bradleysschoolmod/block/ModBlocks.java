@@ -23,6 +23,13 @@ public class ModBlocks {
                     .mapColor(MapColor.COLOR_GREEN)
                     .requiresCorrectToolForDrops()
                     .strength(3.0F, 3.0F)
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> RAW_GREENSTONE_BLOCK =
+            registerBlock("raw_greenstone_block", () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_GREEN)
+                    .requiresCorrectToolForDrops()
+                    .strength(1.5F, 6.0F)
                     .sound(SoundType.TUFF)));
 
     //Method used to register a block.
