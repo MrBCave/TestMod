@@ -32,6 +32,14 @@ public class ModBlocks {
                     .strength(1.5F, 6.0F)
                     .sound(SoundType.TUFF)));
 
+    public static final DeferredBlock<Block> SALT_LAMP =
+            registerBlock("salt_lamp", () -> new BlockSaltLamp(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .requiresCorrectToolForDrops()
+                    .strength(1.5F, 0.3F)
+                    .sound(SoundType.GLASS)
+                    .lightLevel( (block) -> 7 )));
+
     //Method used to register a block.
     //Will register the block form as well as the held item form too.
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

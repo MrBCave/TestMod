@@ -77,6 +77,12 @@ public class BradleysSchoolMod {
             event.accept(ModBlocks.RAW_GREENSTONE_BLOCK);
             event.accept(ModBlocks.POLISHED_GREENSTONE_BLOCK);
         }
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.SALT_LAMP);
+        }
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.NEGATIVE_ION);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

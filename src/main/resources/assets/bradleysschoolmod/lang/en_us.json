@@ -2,9 +2,12 @@
 
   "item.bradleysschoolmod.greenstone": "Greenstone",
   "item.bradleysschoolmod.raw_greenstone": "Raw Greenstone",
+  "item.bradleysschoolmod.negative_ion": "Negative Ion",
+
 
   "block.bradleysschoolmod.raw_greenstone_block": "Raw Greenstone Block",
   "block.bradleysschoolmod.polished_greenstone_block": "Polished Greenstone Block",
+  "block.bradleysschoolmod.salt_lamp": "Salt Lamp",
 
   "creativetab.bradleysschoolmod.items": "Bradley's School Items",
   "creativetab.bradleysschoolmod.blocks": "Bradley's School Blocks"

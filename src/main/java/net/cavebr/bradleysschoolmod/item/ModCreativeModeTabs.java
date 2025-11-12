@@ -36,6 +36,7 @@ public class ModCreativeModeTabs {
                             .displayItems(((itemDisplayParameters, output) -> {
                                 output.accept(ModBlocks.RAW_GREENSTONE_BLOCK);
                                 output.accept(ModBlocks.POLISHED_GREENSTONE_BLOCK);
+                                output.accept(ModBlocks.SALT_LAMP);
                             }))
                             .withTabsBefore(ResourceLocation.fromNamespaceAndPath(BradleysSchoolMod.MODID, "bradleys_school_items"))
                             .build());
