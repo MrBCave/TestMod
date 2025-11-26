@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "bradleysschoolmod:polished_greenstone_block"
+    },
+    "%": {
+      "item": "minecraft:iron_ingot"
+    },
+    "*": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "*#*",
+    "###",
+    "%*%"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bradleysschoolmod:ore_locator"
+  }
+}

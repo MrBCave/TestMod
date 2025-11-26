@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bradleysschoolmod:item/ore_locator"
+  }
+}

@@ -25,6 +25,10 @@ public class ModCreativeModeTabs {
                             .displayItems(((itemDisplayParameters, output) -> {
                                 output.accept(ModItems.RAW_GREENSTONE);
                                 output.accept(ModItems.GREENSTONE);
+                                output.accept(ModItems.FRIED_EGG);
+                                output.accept(ModItems.KIWIBURGER);
+                                output.accept(ModItems.CHARM_OF_RESILIENCE);
+                                output.accept(ModItems.ORE_LOCATOR);
                             }))
                             .build());
 

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "bradleysschoolmod:greenstone"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#T#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bradleysschoolmod:charm_of_resilience"
+  }
+}
